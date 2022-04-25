@@ -65,6 +65,11 @@ jobs:
       name: build java
       run: |
         javac buggyj.java
+   
+   - if: matrix.language == 'cpp'
+      name: build cpp
+      run: |
+        g++ fail.cpp
     #- run: |
     #   make bootstrap
     #   make release
