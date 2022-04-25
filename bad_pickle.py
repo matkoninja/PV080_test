@@ -30,6 +30,9 @@ class RunBinSh(object):
     this is docstring
   """
   def __init__ (self):
+    """
+      this is docstring
+    """
     pass
   def __reduce__(self):
     """
